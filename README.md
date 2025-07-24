@@ -31,6 +31,27 @@ npm install -g yarn
 yarn -v
 ```
 
+Tutorial on Setting up VPS.
+1. Rent a VPS
+VPS is (Virtual Private Server that runs 24/7)
+“I’m using VPS in all my Linux NODES.”
+Hardware Requirement:
+Works with simple hardware — easy to get started but I can run it in my VPS3.
+2. How to Run Octra Node using VPS?
+Order Here: (Use the Link and Euro(€) For Discount)
+https://www.jdoqocy.com/click-101100040-15022370
+Click Cloud VPS(I used VPS 3 coz I run other Nodes here) > Region Any(I used Japan) > Storage Type 1200GB > Ubuntu v22.04> Log in Password (Don’t forget) > 6–8 settings default only > Click Next >
+Fill up your details > Payment.
+“I used Gotymebank or Maya(both vitual cards) link to Paypal(all are perfored in the website). I paid €23 or 1500+ pesos for first month(+ set up fee), second only €14 or 900+ pesos .”
+Once Paid > Wait for the Email to Arrived > Follow instruction.
+Setting up on Your Laptop/PC Windows:
+Now you have your own VPS server.
+Download putty.org > log in to your IP there.
+After Connected, We can now Start.
+Still Confuse? More Guide in VPS Access:
+https://www.facebook.com/share/p/zhHCh3773653iXZF/
+You have now your own Ubuntu(Linux Server) that runs 24/7 in other country. Let’s Navigate!
+
 ---
 
 ## Create wallet
@@ -70,6 +91,8 @@ yarn -v
     ```
   * Visit the prompted url, and enter your password to access wallet generator page
 
+--You can also visit http://YOURIP:8888 ; sample http://123.240.249.129:8888
+
 ### 4. Generate wallet
 * Click "GENERATE NEW WALLET" and watch the real-time progress
 * Save all the details of your Wallet
@@ -79,6 +102,8 @@ yarn -v
 ## Get Faucet
 * Visit [Faucet page](https://faucet.octra.network/)
 * Enter your address starting with `oct...` to get faucet
+* If there is no faucet ask here: #for-token-sharing https://discord.gg/fSMq9eJCqx
+* You can also get 1 octa every 24 hrs here https://oct-faucet.xme.my.id/ (Unofficial Faucet)
 
 ![image](https://github.com/user-attachments/assets/18597b40-eaad-434f-a026-cc4a56a6d1a8)
 
@@ -145,6 +170,8 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+In case you still got error in running the python program, follow the instruction below and repeat all the steps  
 
 ### Option B: Wipe and Reclone (Use if Option A fails or you want a clean setup)
 Update git:
